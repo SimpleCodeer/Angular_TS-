@@ -1,0 +1,37 @@
+.results {
+    display: grid;
+    column-gap: 14px;
+    row-gap: 14px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
+    margin-top: 50px;
+    justify-content: space-around;
+  }
+  
+  input{
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 4px;
+    display: inline-block;
+    width: 30%;
+  }
+  
+  button {
+    padding: 10px;
+    border: solid 1px black;
+    background: rgb(171, 68, 171);
+    color: white;
+    border-radius: 8px;
+  }
+
+  .housing_location{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    // gap: 10px;
+    // justify-content: center;
+    
+  }
+  
